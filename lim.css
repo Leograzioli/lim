@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body {
+    background-image: url(img/background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.mainsquare {
+    width: 1200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    margin-top: 30px;
+    padding-bottom: 140px;
+    border-radius: 20px;
+}
+
+.logo {
+    left: 50%; 
+    width: 250px;
+    margin: auto;
+}
+.logo img {
+    width: 100%;
+    margin-top: 100px;
+
+}
+
+ header h1 {
+     text-align: center;
+     color: lawngreen;
+     font-size: 30px;
+}
+
+.navigation {
+    width: 1000px;
+    height: 45px;
+    background-color: lawngreen;
+    margin: auto;
+    text-align: center;
+    line-height: 40px;
+}
+
+.buttons input {
+    font-weight: bold;
+    
+}
+
+.productlist {
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+}
+
+.productlist input{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.productlist h2 {
+    display: inline-block;
+}
+
+.battery {
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#orange {
+    width: 350px;
+    background-color: orange;
+}
+
+#green {
+    width: 600px;
+    background-color: rgba(59, 219, 59, 0.856);
+}
+
+#red {
+    width: 150px;
+    background-color: rgb(247, 82, 82);
+}
+
+.percent {
+    position: relative;
+    display: none;
+    top: 2px;
+}
+
+.battery:hover .percent {
+    display: block;
+}
